@@ -1,0 +1,24 @@
+.head {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+}
+
+.head button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+}
+.head button :hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.head button :not(:hover) {
+    transition: 1s;
+}
+
+.head img {
+    width: 70px;
+}

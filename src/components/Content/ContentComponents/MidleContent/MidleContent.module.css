@@ -1,0 +1,51 @@
+.cont {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.helloUser {
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(236, 236, 232);
+}
+.helloUser p {
+    margin-block-start: 100px;
+    margin-block-end: 20px;
+}
+
+.btn button {
+    background: transparent;
+    border: none;
+    margin-left: 194px;
+}
+.btn button :hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.btn button :not(:hover) {
+    transition: 1s;
+}
+
+.btn img {
+    width: 90px;
+}
+
+.messages {
+    margin: 50px auto;
+    display: flex;
+    width: 50%;
+}
+.messages img {
+    width: 40px;
+    margin-right: 60px;
+}
+
+.stores {
+    margin: 30px 27px;
+    display: flex;
+}
+.stores img {
+    width: 220px;
+}
